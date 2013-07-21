@@ -45,6 +45,7 @@ grails.project.dependency.resolution = {
     }
 
     plugins {
+        compile ":rest-client-builder:1.0.2"
         runtime ":hibernate:$grailsVersion"
         runtime ":jquery:1.8.3"
         runtime ":resources:1.1.6"

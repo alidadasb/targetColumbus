@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/targetColumbus.iml" filepath="$PROJECT_DIR$/targetColumbus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/targetColumbus-grailsPlugins.iml" filepath="$PROJECT_DIR$/targetColumbus-grailsPlugins.iml" />
     </modules>
   </component>
 </project>
