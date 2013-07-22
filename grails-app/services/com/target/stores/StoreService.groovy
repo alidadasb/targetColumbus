@@ -13,10 +13,10 @@ class StoreService {
 
         def storesByZip = rest.get(_serviceUrl){
             accept "application/json"
-            //contentType "application/json"
+//            contentType "application/json"
         }
 
-        storesByZip.json
-
+        def resultMap = [:] << storesByZip.json
+        resultMap
     }
 }
