@@ -1,0 +1,2 @@
+Store List:
+${stores}
