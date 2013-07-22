@@ -18,5 +18,17 @@ class StoreService {
 
         def resultMap = [:] << storesByZip.json
         resultMap
+        //storesByZip.json
+    }
+
+    def findDeals(String storeId){
+        def _serviceUrl = "${API_BASE}/v1/promotions/weeklyad/storeslugs?storeid=$storeId&key=$consumerKey"
+
+        def findDeals = rest.get(_serviceUrl){
+            accept "application/json"
+        }
+
+        def result = [:] << findDeals.json
+        result
     }
 }
