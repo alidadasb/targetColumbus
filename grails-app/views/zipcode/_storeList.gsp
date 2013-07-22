@@ -4,8 +4,8 @@
 </head>
 <body>
 ${stores}
-<g:each in="${stores}" var="loc">
-    The ID of Store : ${loc}
+<g:each in="${stores.Locations.Location}" var="loc">
+    The ID of Store : ${loc.ID}
 </g:each>
 
 </body>
