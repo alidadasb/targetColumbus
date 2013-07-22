@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ea082c-31b2-4568-8fd2-2642700b63ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp" afterPath="$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="targetColumbus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374454794172" ignored="false" />
+    <file path="/Dummy.txt" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374458003601" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374449776886" ignored="false" />
     <file path="/_footer.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374451332888" ignored="false" />
     <file path="/_menubar.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374451473265" ignored="false" />
@@ -488,7 +486,11 @@
       <created>1374454798440</created>
       <updated>1374454798440</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="adding the plugin compile &quot;:rest-client-builder:1.0.2&quot;">
+      <created>1374458006294</created>
+      <updated>1374458006294</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
