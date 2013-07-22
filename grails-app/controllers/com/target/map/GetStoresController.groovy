@@ -15,6 +15,6 @@ class GetStoresController {
     }
 
     def findDeals(){
-        render storeService.findDeals('T1768')
+        render storeService.findDeals(params.zip)
     }
 }

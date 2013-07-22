@@ -23,8 +23,8 @@ class StoreService {
         //storesByZip.json
     }
 
-    def findDeals(String storeId){
-        def _serviceUrl = "${API_BASE}/v1/promotions/weeklyad/storeslugs?storeid=$storeId&key=$consumerKey"
+    def findDeals(String zip){
+        def _serviceUrl = "${API_BASE}/v1/promotions/weeklyad/storeslugs?citystatezip=$zip&key=$consumerKey"
 
         def findDeals = rest.get(_serviceUrl){
             accept "application/json"
