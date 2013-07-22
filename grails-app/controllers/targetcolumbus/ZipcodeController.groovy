@@ -11,7 +11,8 @@ class ZipcodeController {
 
 
     def findDeal(){
-        throw new Exception("NOT YET IMPLEMENTED ")
+        println params
+        render ( template: "dealsList", model: [deals: storeService.findDeals(params.id)])
     }
 	def zipcode(){
         10.times {println ""}
