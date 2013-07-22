@@ -16,6 +16,8 @@ class StoreService {
 //            contentType "application/json"
         }
 
+        println storesByZip
+
         def resultMap = [:] << storesByZip.json
         resultMap
     }
