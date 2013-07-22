@@ -10,18 +10,19 @@ class ZipcodeController {
    def storeService
 
 
-    def findDeal(){
+    def dealsList(){
         println params
-        render ( template: "dealsList", model: [deals: storeService.findDeals(params.id)])
+        def zip = params.id.split('-')
+        def res = storeService.findDeals(zip[0])
+
+        def rr =JSON.parse(res)
+        println(rr)
+
+        render ( view: "dealsList", model: [deals:rr ])
     }
+
 	def zipcode(){
-        10.times {println ""}
-        println params
         def res = storeService.storesByZipCode([zip:params.zipcode,radius: 10])
-        res.each {
-          it.value.Location.each {println "^^^^^^ $it"}
-        }
-        render ( template: "storeList", model: [stores: res])
+        render ( template: "storeList", model: [stores: JSON.parse(res)])
     }
-//	def index = { }
 }

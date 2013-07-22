@@ -13,7 +13,7 @@
 
 <g:formRemote name="myForm" on404="alert('not found!')" update="updateMe1"
               url="[controller: 'zipcode', action:'zipcode']">
-    Zip Code : <input zipcode="id" type="text" />
+    Zip Code : <input name="zipcode"  type="text" />
 </g:formRemote>
 
 <div id="updateMe1"></div>

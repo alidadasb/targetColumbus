@@ -8,19 +8,16 @@ class StoreService {
     def storesByZipCode(Map searchCriteria) {
         //https://api.target.com/v2/store?nearby=43230&key=fzg8mSgoVXUxtSp3yjh4JdOusGPVwvCn
 
-        def _serviceUrl = "${API_BASE}/v2/store?nearby=$searchCriteria.zip&range=$searchCriteria.radius&key=$consumerKey"
+        def _serviceUrl = "${API_BASE}/v2/store?nearby=${searchCriteria.zip}&range=$searchCriteria.radius&key=$consumerKey"
         println _serviceUrl
 
         def storesByZip = rest.get(_serviceUrl){
             accept "application/json"
-//            contentType "application/json"
         }
 
         println storesByZip
-
-        def resultMap = [:] << storesByZip.json
-        resultMap
-        //storesByZip.json
+        println("888888888888888888888888888888888888")
+        storesByZip.text
     }
 
     def findDeals(String zip){
@@ -30,7 +27,6 @@ class StoreService {
             accept "application/json"
         }
 
-        def result = [:] << findDeals.json
-        result
+        findDeals.text
     }
 }

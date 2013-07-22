@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27ea082c-31b2-4568-8fd2-2642700b63ff" name="Default" comment="">
+    <list default="true" id="27ea082c-31b2-4568-8fd2-2642700b63ff" name="Default" comment="adding the plugin compile &quot;:rest-client-builder:1.0.2&quot;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/grails-app/views/zipcode/dealsList.gsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/grails-app/views/zipcode/_dealsList.gsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/com/target/map/GetStoresController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/com/target/map/GetStoresController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy" afterPath="$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipcodeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipcodeController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp" afterPath="$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/_menu/_submenubar.gsp" afterPath="$PROJECT_DIR$/grails-app/views/_menu/_submenubar.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/home/index.gsp" afterPath="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="targetColumbus.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$USER_HOME$/.grails/" />
-    <file path="/Dummy.txt" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374461247150" ignored="false" />
+    <file path="/Dummy.txt" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466943944" ignored="false" />
     <file path="/BuildConfig.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374449776886" ignored="false" />
     <file path="/_footer.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374451332888" ignored="false" />
     <file path="/_menubar.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374451473265" ignored="false" />
-    <file path="/index.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374460507570" ignored="false" />
+    <file path="/index.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374464721304" ignored="false" />
     <file path="/ZipCodeController.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374460807756" ignored="false" />
     <file path="$PROJECT_DIR$/test/unit/targetcolumbus/ZipcodeControllerSpec.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374452034655" ignored="false" />
-    <file path="/ZipcodeController.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374461010472" ignored="false" />
-    <file path="/_storeList.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374461183801" ignored="false" />
-    <file path="/StoreService.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374459405887" ignored="false" />
+    <file path="/ZipcodeController.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466528913" ignored="false" />
+    <file path="/_storeList.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466231295" ignored="false" />
+    <file path="/StoreService.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466588214" ignored="false" />
     <file path="/Config.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374458041530" ignored="false" />
     <file path="/_dealsList.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374460825150" ignored="false" />
+    <file path="/dealsList.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466692647" ignored="false" />
+    <file path="/Dummy.groovy" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466508083" ignored="false" />
+    <file path="/_navbar.gsp" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466917741" ignored="false" />
+    <file path="$PROJECT_DIR$/target/stacktrace.log" changelist="27ea082c-31b2-4568-8fd2-2642700b63ff" time="1374466964565" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +92,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.gsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.gsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="2" selection-start="555" selection-end="555" vertical-scroll-proportion="0.33426183">
+            <state line="18" column="5" selection-start="578" selection-end="578" vertical-scroll-proportion="-5.744681">
               <folding />
             </state>
           </provider>
@@ -91,34 +104,25 @@
       <file leaf-file-name="ZipcodeController.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipcodeController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="7" selection-start="692" selection-end="692" vertical-scroll-proportion="-15.652174">
+            <state line="25" column="11" selection-start="607" selection-end="607" vertical-scroll-proportion="-14.304348">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_dealsList.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/_dealsList.gsp">
+      <file leaf-file-name="dealsList.gsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/dealsList.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.5531914">
+            <state line="10" column="6" selection-start="254" selection-end="254" vertical-scroll-proportion="-3.1914895">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_storeList.gsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp">
+      <file leaf-file-name="_navbar.gsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="83" selection-start="515" selection-end="520" vertical-scroll-proportion="-4.4680853">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoreService.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+            <state line="25" column="36" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.4878049">
               <folding />
             </state>
           </provider>
@@ -147,17 +151,21 @@
         <option value="$PROJECT_DIR$/grails-app/views/_menu/_menubar.gsp" />
         <option value="$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipCodeController.groovy" />
         <option value="$PROJECT_DIR$/grails-app/conf/Config.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy" />
         <option value="$PROJECT_DIR$/grails-app/views/zipcode/_dealsList.gsp" />
-        <option value="$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipcodeController.groovy" />
-        <option value="$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp" />
         <option value="$PROJECT_DIR$/grails-app/views/home/index.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/com/target/map/GetStoresController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipcodeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/zipcode/dealsList.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/_menu/_submenubar.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="88" />
-    <option name="y" value="90" />
+    <option name="x" value="113" />
+    <option name="y" value="76" />
     <option name="width" value="1650" />
     <option name="height" value="913" />
   </component>
@@ -199,6 +207,120 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RestoreUpdateTree">
+    <UpdateInfo date="Moments ago" ActionInfo="_Update">
+      <UpdatedFiles>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated from server" />
+          <option name="myStatusName" value="Changed on server" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CHANGED_ON_SERVER" />
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Updated" />
+            <option name="myStatusName" value="Changed" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="UPDATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/grails-app/controllers/com/target/map/GetStoresController.groovy</PATH>
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Created" />
+            <option name="myStatusName" value="Created" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="CREATED" />
+            <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Deleted" />
+            <option name="myStatusName" value="Deleted" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="true" />
+            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          </FILE-GROUP>
+          <FILE-GROUP>
+            <option name="myUpdateName" value="Restored" />
+            <option name="myStatusName" value="Will be restored" />
+            <option name="mySupportsDeletion" value="false" />
+            <option name="myCanBeAbsent" value="false" />
+            <option name="myId" value="RESTORED" />
+          </FILE-GROUP>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Modified" />
+          <option name="myStatusName" value="Modified" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MODIFIED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Skipped" />
+          <option name="myStatusName" value="Skipped" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SKIPPED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with conflicts" />
+          <option name="myStatusName" value="Will be merged with conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_CONFLICTS" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with tree conflicts" />
+          <option name="myStatusName" value="Merged with tree conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged with property conflicts" />
+          <option name="myStatusName" value="Will be merged with property conflicts" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Merged" />
+          <option name="myStatusName" value="Will be merged" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="MERGED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Not in repository" />
+          <option name="myStatusName" value="Not in repository" />
+          <option name="mySupportsDeletion" value="true" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UNKNOWN" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally added" />
+          <option name="myStatusName" value="Locally added" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_ADDED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Locally removed" />
+          <option name="myStatusName" value="Locally removed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="LOCALLY_REMOVED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Switched" />
+          <option name="myStatusName" value="Switched" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="SWITCHED" />
+        </FILE-GROUP>
+      </UpdatedFiles>
+    </UpdateInfo>
   </component>
   <component name="RunManager" selected="Grails.Grails:targetColumbus">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -365,22 +487,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="88" y="90" width="1650" height="913" extended-state="0" />
+    <frame x="113" y="76" width="1650" height="913" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.61160153" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37094763" sideWeight="0.42749053" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37094763" sideWeight="0.6708701" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19451371" sideWeight="0.61160153" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3883985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3883985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298005" sideWeight="0.61160153" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -395,7 +518,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -465,13 +587,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/_dealsList.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="580" vertical-scroll-proportion="0.0">
@@ -505,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="21" selection-start="751" selection-end="1603" vertical-scroll-proportion="-11.808511">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_menubar.gsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="0" selection-start="107" selection-end="107" vertical-scroll-proportion="0.11627907">
@@ -533,44 +641,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/target/map/GetStoresController.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="52" selection-start="431" selection-end="431" vertical-scroll-proportion="0.2425876">
+        <state line="18" column="5" selection-start="578" selection-end="578" vertical-scroll-proportion="-5.744681">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy">
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/com/target/map/GetStoresController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="567" selection-end="567" vertical-scroll-proportion="0.0">
+        <state line="7" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.24193548">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/controllers/targetcolumbus/ZipcodeController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="7" selection-start="692" selection-end="692" vertical-scroll-proportion="-15.652174">
+        <state line="25" column="11" selection-start="607" selection-end="607" vertical-scroll-proportion="-14.304348">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/_dealsList.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/services/com/target/stores/StoreService.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="140" selection-end="140" vertical-scroll-proportion="-2.5531914">
+        <state line="11" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/_storeList.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="83" selection-start="515" selection-end="520" vertical-scroll-proportion="-4.4680853">
+        <state line="14" column="13" selection-start="394" selection-end="394" vertical-scroll-proportion="-4.4680853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/grails-app/views/home/index.gsp">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_submenubar.gsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="2" selection-start="555" selection-end="555" vertical-scroll-proportion="0.33426183">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/zipcode/dealsList.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="254" selection-end="254" vertical-scroll-proportion="-3.1914895">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/_menu/_navbar.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="36" selection-start="1029" selection-end="1029" vertical-scroll-proportion="0.4878049">
           <folding />
         </state>
       </provider>
